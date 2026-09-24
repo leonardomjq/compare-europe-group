@@ -29,7 +29,6 @@ export default function Main() {
 
     fetchData();
   }, []);
-  console.log('Returned: ', fetchedData);
 
   return (
     <div>
